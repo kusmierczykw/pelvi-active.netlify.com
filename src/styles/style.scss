@@ -1,0 +1,109 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "colors";
+@import "backgrounds";
+@import "texts";
+/**
+    Komponenty
+ */
+@import "buttons";
+
+html, body {
+  line-height: 2;
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+$navbar-background-color: rgba($secondary-color, .9);
+$navbar-toggler-color: $light-color;
+$navbar-brand-text-color: $light-color;
+$navbar-brand-font-size: 24px;
+$navbar-brand-text-transform: uppercase;
+$navbar-nav-item-font-size: 20px;
+$navbar-nav-item-text-transform: lowercase;
+$navbar-nav-item-link-color: $light-color;
+$navbar-nav-item-link-hover-color: $primary-color;
+
+.pelvi-navbar {
+  background: $navbar-background-color;
+
+  .navbar-brand {
+    font-weight: lighter;
+    color: $navbar-brand-text-color;
+    font-size: $navbar-brand-font-size;
+    text-transform: $navbar-brand-text-transform;
+
+    &:hover {
+      color: $navbar-brand-text-color;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $navbar-toggler-color;
+
+    &.icon {
+      background-color: $navbar-toggler-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      text-transform: lowercase;
+      font-size: $navbar-nav-item-font-size;
+      font-weight: lighter;
+    }
+
+    .nav-link {
+      position: relative;
+      color: $navbar-nav-item-link-color;
+
+      &:before {
+        content: '';
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        background-color: $primary-color;
+      }
+
+      &:hover {
+        color: $navbar-nav-item-link-hover-color;
+
+        &:before {
+          transition: 0.5s;
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}
+
+.pelvi-hero-section {
+  background-image: url(../images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(241, 55, 108, 1);
+    background: linear-gradient(to right, rgba(241, 55, 108, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  h1 {
+    line-height: 1.3;
+  }
+}

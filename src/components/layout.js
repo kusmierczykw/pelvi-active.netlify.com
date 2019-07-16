@@ -7,46 +7,67 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+import("../styles/style.scss");
 
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
-  )
-}
+const Layout = ({children}) => {
+    return (
+        <>
+            <Header siteTitle={'Pelvi-Active'}/>
+
+            <div className='container-fluid px-0'>
+                <div className='row no-gutters'>
+                    <div className='col-lg-12'>
+                        <main>{children}</main>
+                    </div>
+                </div>
+            </div>
+            <footer className="bg-secondary py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 offset-lg-6">
+                            <h2 className="display-4 text-uppercase text-left text-primary mb-3">Kontakt</h2>
+                        </div>
+                    </div>
+
+                    <div className="row align-content-center">
+                        <div className="col-lg-6 text-white">
+                            <p>
+                                Zapraszam do skorzystania
+                                z kompleksowej fizjoterapii dolegliwości kobiecych:
+                                nietrzymanie moczu, obniżenie narządów,
+                                rozejście mięśnia prostego brzucha, blizna po cesarskim cięciu
+                                i wiele innych.
+                            </p>
+                        </div>
+                        <div className="col-lg-6 text-white">
+                            <p className="">
+                                <h4>Małgorzata Leleń</h4>
+                                00-000-000
+                                ul. Ulica 20, m. 40
+                                www.pelvi-active.pl
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container bg-primary text-white text-center py-4">
+                    © {new Date().getFullYear()} Wojciech Kuśmierczyk
+                </div>
+            </footer>
+            {/*<footer>*/}
+            {/*    © {new Date().getFullYear()}, Built with*/}
+            {/*    {` `}*/}
+            {/*    <a href="https://www.gatsbyjs.org">Gatsby</a>*/}
+            {/*</footer>*/}
+        </>
+    )
+};
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+    children: PropTypes.node.isRequired,
+};
 
 export default Layout
