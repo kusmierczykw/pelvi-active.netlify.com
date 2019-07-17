@@ -1,13 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import logo from '../images/logo.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Header = ({siteTitle}) => (
     <header>
         <nav className="navbar navbar-expand-lg pelvi-navbar fixed-top">
             <div className="container">
-                <a className="navbar-brand" href="#">
-                    <img src={logo} height={50}/> {siteTitle}
+                <a className="navbar-brand" href="/">
+                    <img src={logo} height={50} alt={'Logo Pelvi-Active'}/> {siteTitle}
                 </a>
                 <button className="navbar-toggler"
                         type="button"
@@ -16,28 +18,29 @@ const Header = ({siteTitle}) => (
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span className="fa fa-bug"></span>
+
+                    <FontAwesomeIcon icon={faBars} color={'white'}/>
                 </button>
 
                 <div className="collapse navbar-collapse"
                      id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Start
+                            <a className="nav-link" href="/">Start
                                 <span className="sr-only">(current)</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">O mnie</a>
+                            <a className="nav-link" href="/">O mnie</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Kursy</a>
+                            <a className="nav-link" href="/">Kursy</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Oferta</a>
+                            <a className="nav-link" href="/">Oferta</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Kontakt</a>
+                            <a className="nav-link" href="/">Kontakt</a>
                         </li>
                     </ul>
                 </div>

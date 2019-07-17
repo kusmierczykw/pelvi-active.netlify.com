@@ -19,7 +19,7 @@ const IndexPage = () => (
                         <h1 className="display-3 text-white text-uppercase mb-4"
                             style={{fontWeight: 300}}>Fizjoterapia
                             uroginekologiczna</h1>
-                        <a href="#" className="btn btn-primary px-5" role="button">oferta</a>
+                        <a href="/" className="btn btn-primary px-5" role="button">oferta</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const IndexPage = () => (
                             usprawnianiem kobiet w okresie okołoporodowym. Doświadczenie z zakresu uroginekologii i
                             rehabilitacji ogólnej zdobyłam na wielu szkoleniach kursach.
                         </p>
-                        <a href="#" className="btn btn-primary px-5" role="button">kursy i szkolenia</a>
+                        <a href="/" className="btn btn-primary px-5" role="button">kursy i szkolenia</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const IndexPage = () => (
         </section>
 
         <section>
-            <div className="container-fluid p-0">
+            <div className="container p-0">
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6 text-center">
                         <img src={fizjoterapia_w_ciazy} alt="Fizjoterapia w ciąży"

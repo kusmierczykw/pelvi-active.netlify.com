@@ -43,12 +43,9 @@ const Layout = ({children}) => {
                             </p>
                         </div>
                         <div className="col-lg-6 text-white">
-                            <p className="">
-                                <h4>Małgorzata Leleń</h4>
-                                00-000-000
-                                ul. Ulica 20, m. 40
-                                www.pelvi-active.pl
-                            </p>
+                            <h4>Małgorzata Leleń</h4>
+                            <p>00-000-000</p>
+                            <p>www.pelvi-active.pl</p>
                         </div>
                     </div>
                 </div>
