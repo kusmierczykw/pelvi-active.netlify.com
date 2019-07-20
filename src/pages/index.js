@@ -39,7 +39,7 @@ const IndexPage = () => (
                         <img
                             src={malgorzata_lelen}
                             alt="Małgorzata Leleń"
-                            className="img-fluid"
+                            className="img-fluid d-none d-lg-block"
                         />
                     </div>
                     <div className="col-lg-7 offset-lg-1">
@@ -87,7 +87,7 @@ const IndexPage = () => (
                         <img
                             src={fizjoterapia_w_ciazy}
                             alt="Fizjoterapia w ciąży"
-                            className="img-fluid"
+                            className="img-fluid d-none d-lg-block"
                         />
                     </div>
                     <div className="col-lg-6">
@@ -136,7 +136,7 @@ const IndexPage = () => (
                         <img
                             src={fizjoterapia_po_porodzie}
                             alt="Fizjoterapia po porodzie"
-                            className="img-fluid"
+                            className="img-fluid d-none d-lg-block"
                         />
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const IndexPage = () => (
                         <img
                             src={fizjoterapia_uroginekologiczna}
                             alt="Fizjoterapia uroginekologiczna"
-                            className="img-fluid"
+                            className="img-fluid d-none d-lg-block"
                         />
                     </div>
                     <div className="col-lg-6">
@@ -184,7 +184,7 @@ const IndexPage = () => (
                         <img
                             src={profilaktyka_zaburzen_dnia_miednicy}
                             alt="Profilaktyka zaburzeń dnia miednicy"
-                            className="img-fluid"
+                            className="img-fluid d-none d-lg-block"
                         />
                     </div>
                 </div>
