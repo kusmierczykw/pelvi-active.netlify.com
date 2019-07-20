@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298f19a2-ce32-487d-ad3e-6e3dfc9dc5f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/footer/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pelvi-active.netlify.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pelvi-active.netlify.com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_texts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_texts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/wave_separator.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/wave_separator.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+            <state relative-caret-position="389">
+              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -291,18 +269,18 @@
       <workItem from="1563484433220" duration="1153000" />
       <workItem from="1563630131671" duration="45000" />
       <workItem from="1563630211157" duration="137000" />
-      <workItem from="1563630362103" duration="17453000" />
+      <workItem from="1563630362103" duration="20451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33108000" />
+    <option name="totallyTimeSpent" value="36106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -317,7 +295,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.788671" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.3388521" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946752" visible="true" weight="0.3388521" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946752" visible="true" weight="0.3388521" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.3289183" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -577,10 +555,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/wave_separator.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state relative-caret-position="389">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
         </state>
       </provider>
     </entry>
