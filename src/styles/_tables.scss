@@ -1,0 +1,10 @@
+@import "colors";
+
+$table-even-row-background: $secondary-color-dark;
+.table {
+    tr {
+        &:nth-last-of-type(2n) {
+          background-color: rgba($table-even-row-background, .125);
+        }
+    }
+}
