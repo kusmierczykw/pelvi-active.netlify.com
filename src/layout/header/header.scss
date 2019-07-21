@@ -1,4 +1,4 @@
-@import '../../../styles/colors';
+@import '../../styles/colors';
 
 $navbar-background-color: rgba($secondary-color, 0.9);
 $navbar-toggler-color: $light-color;
@@ -67,7 +67,7 @@ $navbar-nav-item-link-hover-color: $primary-color;
 }
 
 .pelvi-hero-section {
-    background-image: url(../../../images/hero_image.jpg);
+    background-image: url(../../images/hero_image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -91,7 +91,7 @@ $navbar-nav-item-link-hover-color: $primary-color;
 
     &:after {
         content: '';
-        background-image: url('../../../images/wave_separator.png');
+        background-image: url('../../images/wave_separator.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: absolute;

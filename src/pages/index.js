@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../components/layout/layout';
+import Layout from '../layout/layout';
 import SEO from '../components/seo';
 
 import malgorzata_lelen from '../images/malgorzata_lelen.png';
@@ -8,6 +8,10 @@ import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';
 import fizjoterapia_po_porodzie from '../images/fizjoterapia_po_porodzie.jpg';
 import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologiczna.jpg';
 import profilaktyka_zaburzen_dnia_miednicy from '../images/profilaktyka_zaburzen_dnia_miednicy.jpg';
+import { Link } from 'gatsby';
+import {
+    ButtonPrimary,
+} from '../components/button';
 
 const IndexPage = () => (
     <Layout>
@@ -21,12 +25,9 @@ const IndexPage = () => (
                             style={{ fontWeight: 300 }}>
                             Fizjoterapia uroginekologiczna
                         </h1>
-                        <a
-                            href="/"
-                            className="btn btn-primary px-5"
-                            role="button">
+                        <ButtonPrimary as={Link} to={'/'}>
                             oferta
-                        </a>
+                        </ButtonPrimary>
                     </div>
                 </div>
             </div>
@@ -57,12 +58,9 @@ const IndexPage = () => (
                             uroginekologii i rehabilitacji ogólnej zdobyłam na
                             wielu szkoleniach kursach.
                         </div>
-                        <a
-                            href="/"
-                            className="btn btn-primary px-5"
-                            role="button">
+                        <ButtonPrimary as={Link} to={'/'}>
                             kursy i szkolenia
-                        </a>
+                        </ButtonPrimary>
                     </div>
                 </div>
             </div>

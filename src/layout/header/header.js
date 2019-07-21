@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import "./header.scss";
-import logo from '../../../images/logo.png';
+import logo from '../../images/logo.png';
 
 const Header = ({ siteTitle }) => (
     <header>
