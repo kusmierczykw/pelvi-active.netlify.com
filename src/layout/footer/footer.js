@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="container bg-primary text-white text-center py-4">
                 Copyright © {new Date().getFullYear()}
                 <a
-                    href="http://wojciech_kusmierczyk.pl"
+                    href="http://wojciech-kusmierczyk.pl"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white ml-1">
