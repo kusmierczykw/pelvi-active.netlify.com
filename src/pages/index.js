@@ -9,9 +9,7 @@ import fizjoterapia_po_porodzie from '../images/fizjoterapia_po_porodzie.jpg';
 import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologiczna.jpg';
 import profilaktyka_zaburzen_dnia_miednicy from '../images/profilaktyka_zaburzen_dnia_miednicy.jpg';
 import { Link } from 'gatsby';
-import {
-    ButtonPrimary,
-} from '../components/button';
+import { ButtonPrimary } from '../components/button';
 
 const IndexPage = () => (
     <Layout>
@@ -73,6 +71,89 @@ const IndexPage = () => (
                         <h2 className="display-4 text-uppercase text-center text-white mb-0">
                             Kursy i szkolenia
                         </h2>
+                    </div>
+                </div>
+
+                <div className="row mt-5">
+                    <div className="col-lg-12">
+                        <ul className="timeline text-white">
+                            <li className="timeline-section">
+                                <div className="timeline-section__title">
+                                    Fizjoterapia w ginekologii i urologii
+                                </div>
+
+                                <div className="timeline-section__body">
+                                    <ul className="dashed">
+                                        <li>
+                                            Fizjoterapia kobiet. Terapia
+                                            uroginekologiczna, okresu ciąży i
+                                            pooperacyjna
+                                        </li>
+                                        <li>
+                                            Fizjoterapia w ginekologii i
+                                            położnictwie
+                                        </li>
+                                        <li>
+                                            Ultrasonografia w fizjoterapii
+                                            dolnych dróg moczowych
+                                        </li>
+                                        <li>
+                                            Techniczne aspekty w fizjoterapii
+                                            ginekologicznej, urologicznej i
+                                            proktologicznej
+                                        </li>
+                                        <li>Kompleksowa terapia blizny</li>
+                                        <li>
+                                            Rozstęp mięśnia prostego brzucha
+                                            (DRA)
+                                        </li>
+                                        <li>
+                                            Techniczne aspekty w fizjoterapii
+                                            dna miednicy i dysfunkcjach narządu
+                                            ruchu
+                                        </li>
+                                        <li>
+                                            Techniki osteopatyczne w ginekologii
+                                            i położnictwie
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li className="timeline-section">
+                                <div className="timeline-section__title">
+                                    Fizjoterapia ogólna
+                                </div>
+                                <div className="timeline-section__body">
+                                    <ul className="dashed">
+                                        <li>Kinesiology Taping</li>
+                                        <li>
+                                            Masaż klasyczny - profil rozszerzony
+                                        </li>
+                                        <li>
+                                            Terapia powięziowo-mięśniowych
+                                            punktów spustowych z funkcjonalną
+                                            diagnostyką narządu ruchu
+                                        </li>
+                                        <li>
+                                            Skoliozy - diagnostyka i
+                                            postępowanie fizjoterapeutyczne
+                                        </li>
+                                        <li>
+                                            Badanie i fizjoterapia funkcjonalna
+                                            w uszkodzeniach stawu barkowego
+                                        </li>
+                                        <li>Kurs podstawowy PNF</li>
+                                        <li>
+                                            Fascial Distortion Model (FDM) -
+                                            leczenie zaburzeń układu
+                                            mięśniowo‑szkieletowego technikami
+                                            powięziowym
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -268,5 +349,4 @@ const IndexPage = () => (
         </section>
     </Layout>
 );
-
 export default IndexPage;
