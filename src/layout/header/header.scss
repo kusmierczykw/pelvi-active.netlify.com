@@ -107,5 +107,15 @@ $navbar-nav-item-link-hover-color: $primary-color;
 
     h1 {
         line-height: 1.3;
+        font-size: 4.5rem;
+        font-weight: 300;
+
+        @media screen and (max-width: 992px){
+            font-size: 3em;
+        }
+
+        @media screen and (max-width: 768px){
+            font-size: 2em;
+        }
     }
 }

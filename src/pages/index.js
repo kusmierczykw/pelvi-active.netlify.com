@@ -16,10 +16,10 @@ const IndexPage = () => (
         <SEO title="Strona głowna" />
         <section className="pelvi-hero-section d-flex align-items-center">
             <div className="container-fluid">
-                <div className="row align-content-center">
+                <div className="row align-content-center px-4">
                     <div className="col-lg-6 offset-lg-1">
                         <h1
-                            className="display-3 text-white text-uppercase mb-4"
+                            className="text-white text-uppercase mb-4"
                             style={{ fontWeight: 300 }}>
                             Fizjoterapia uroginekologiczna
                         </h1>
@@ -31,17 +31,17 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="pt-5">
+        <section className="pt-5 pb-5 pb-lg-0">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
+                    <div className="col-lg-5 col-xl-4 text-center">
                         <img
                             src={malgorzata_lelen}
                             alt="Małgorzata Leleń"
-                            className="img-fluid d-none d-lg-block"
+                            className="img-fluid d-none d-lg-block animate-image"
                         />
                     </div>
-                    <div className="col-lg-7 offset-lg-1">
+                    <div className="col-lg-7 col-xl-7 offset-xl-1">
                         <h2 className="display-4 text-primary text-uppercase mb-0">
                             O mnie
                         </h2>
@@ -79,11 +79,12 @@ const IndexPage = () => (
                         <ul className="timeline text-white">
                             <li className="timeline-section">
                                 <div className="timeline-section__title">
-                                    Fizjoterapia w ginekologii i urologii
+                                    Fizjoterapia w ginekologii
+                                    <br /> i urologii
                                 </div>
 
                                 <div className="timeline-section__body">
-                                    <ul className="dashed">
+                                    <ul>
                                         <li>
                                             Fizjoterapia kobiet. Terapia
                                             uroginekologiczna, okresu ciąży i
@@ -125,7 +126,7 @@ const IndexPage = () => (
                                     Fizjoterapia ogólna
                                 </div>
                                 <div className="timeline-section__body">
-                                    <ul className="dashed">
+                                    <ul>
                                         <li>Kinesiology Taping</li>
                                         <li>
                                             Masaż klasyczny - profil rozszerzony
@@ -160,7 +161,7 @@ const IndexPage = () => (
         </section>
 
         <section>
-            <div className="container p-0">
+            <div className="container p-lg-0 py-5">
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6 text-center">
                         <img
@@ -170,7 +171,7 @@ const IndexPage = () => (
                         />
                     </div>
                     <div className="col-lg-6">
-                        <div className="p-4">
+                        <div className="px-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia w ciąży
                             </h3>
@@ -193,7 +194,7 @@ const IndexPage = () => (
                 </div>
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6">
-                        <div className="p-4">
+                        <div className="px-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia po porodzie
                             </h3>
@@ -228,7 +229,7 @@ const IndexPage = () => (
                         />
                     </div>
                     <div className="col-lg-6">
-                        <div className="p-4">
+                        <div className="px-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia uroginekologiczna
                             </h3>
@@ -245,7 +246,7 @@ const IndexPage = () => (
                 </div>
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6">
-                        <div className="p-4">
+                        <div className="px-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Profilaktyka zaburzeń dnia miednicy
                             </h3>
@@ -338,6 +339,22 @@ const IndexPage = () => (
                                                 20 - 30 zł
                                             </div>
                                             <small>(aplikacja)</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span className="font-weight-bold">
+                                                Masaż leczniczy (częściowy,
+                                                całościowy)
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div className="font-weight-bold">
+                                                60 - 120 zł
+                                            </div>
+                                            <small>
+                                                (czas trwania 30 - 60 min.)
+                                            </small>
                                         </td>
                                     </tr>
                                 </tbody>

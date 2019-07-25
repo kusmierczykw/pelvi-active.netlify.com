@@ -1,3 +1,13 @@
+$timeline-title-width: 30%;
+$timeline-body-width: 100% - $timeline-title-width;
+$timeline-title-font-size: 20px;
+$timeline-title-font-weight: 600;
+$timeline-body-margin-x: 40px;
+$timeline-line-width: 2px;
+$timeline-line-background-color: white;
+$timeline-line-dot-size: 10px;
+$timeline-title-line-height: 1.5;
+$timeline-section-margin-y: 32px;
 .timeline {
     list-style: none;
     margin: 0;
@@ -8,53 +18,48 @@
 
     &:before {
         content: '';
-        width: 2px;
         height: 100%;
         position: absolute;
-        background-color: white;
-        left: calc(30% + 20px);
+        width: $timeline-line-width;
+        left: calc(#{$timeline-title-width} + 20px);
+        background-color: $timeline-line-background-color;
     }
 
     &-section {
         display: flex;
         flex-direction: row;
+        margin-bottom: $timeline-section-margin-y;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
 
         &__title {
-            font-weight: 600;
-            font-size: 20px;
-            flex: 1 0 30%;
             text-align: right;
             position: relative;
+            flex: 1 0 $timeline-title-width;
+            line-height: $timeline-title-line-height;
+            font-size: $timeline-title-font-size;
+            font-weight: $timeline-title-font-weight;
 
             &:before {
-                position: absolute;
                 content: '';
-                width: 10px;
-                height: 10px;
-                border-radius: 10px;
-                background-color: white;
                 right: -26px;
-                top: 15px;
+                top: 12px;
+                position: absolute;
+                width: $timeline-line-dot-size;
+                height: $timeline-line-dot-size;
+                border-radius: $timeline-line-dot-size;
+                background-color: $timeline-line-background-color;
             }
         }
 
         &__body {
-            margin-left: 40px;
-            flex: 1 0 70%;
-            font-size: 16px;
+            margin-left: $timeline-body-margin-x;
+            flex: 1 0 $timeline-body-width;
 
             ul {
-                margin: 0;
-            }
-
-            ul.dashed {
-                list-style-type: none;
-            }
-
-            ul.dashed > li:before {
-                content: "-";
-                position: absolute;
-                text-indent: -16px;
+                list-style-type: disc;
             }
         }
     }

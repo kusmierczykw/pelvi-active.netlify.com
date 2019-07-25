@@ -1,25 +1,24 @@
 @import 'colors';
 @import 'backgrounds';
 @import 'texts';
-@import '_tables';
-@import '_timeline';
 /**
     Komponenty
  */
-@import 'buttons';
+@import 'tables';
+@import 'timeline';
 
 html,
 body {
-    line-height: 2;
-    font-size: 16px;
+  line-height: 2;
+  font-size: 16px;
 }
 
 * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }

@@ -14,14 +14,14 @@ const ButtonSizes = {
     normal: {
         paddingLeft: '2em',
         paddingRight: '2em',
-        paddingTop: '.75em',
-        paddingBottom: '.75em',
+        paddingTop: '.5em',
+        paddingBottom: '.5em',
     },
     large: {
         paddingLeft: '4em',
         paddingRight: '4em',
-        paddingTop: '1.2em',
-        paddingBottom: '1.2em',
+        paddingTop: '1em',
+        paddingBottom: '1em',
     },
 };
 
@@ -29,6 +29,7 @@ export const ButtonBasic = styled.button`
     border-radius: 4px;
     font-weight: 500;
     transition: background-color .2s ease-in;
+    display: inline-block;
 
     :hover {
         text-decoration: none;
