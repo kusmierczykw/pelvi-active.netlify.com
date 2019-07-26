@@ -16,7 +16,7 @@ const IndexPage = () => (
         <SEO title="Strona głowna" />
         <section className="pelvi-hero-section d-flex align-items-center">
             <div className="container-fluid">
-                <div className="row align-content-center px-4">
+                <div className="row align-content-center px-lg-4">
                     <div className="col-lg-6 offset-lg-1">
                         <h1
                             className="text-white text-uppercase mb-4"
@@ -31,7 +31,7 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="pt-5 pb-5 pb-lg-0">
+        <section className="py-5 pb-lg-0">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-xl-4 text-center">
@@ -42,10 +42,10 @@ const IndexPage = () => (
                         />
                     </div>
                     <div className="col-lg-7 col-xl-7 offset-xl-1">
-                        <h2 className="display-4 text-primary text-uppercase mb-0">
+                        <h2 className="display-4 text-primary text-uppercase mb-0 py-4">
                             O mnie
                         </h2>
-                        <div className="text-justify font-size-20 mb-4 mt-5">
+                        <div className="text-justify font-size-20">
                             Nazywam się Małgorzata Leleń. Ukończyłam studia
                             magisterskie na Uniwersytecie Medycznym w Lublinie
                             na kierunku Fizjoterapia. Zajmuję się profilaktyką
@@ -56,7 +56,7 @@ const IndexPage = () => (
                             uroginekologii i rehabilitacji ogólnej zdobyłam na
                             wielu szkoleniach kursach.
                         </div>
-                        <ButtonPrimary as={Link} to={'/'}>
+                        <ButtonPrimary className="mt-4" as={Link} to={'/'}>
                             kursy i szkolenia
                         </ButtonPrimary>
                     </div>
@@ -64,23 +64,22 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="bg-primary py-5">
+        <section className="py-5 bg-primary">
             <div className="container">
                 <div className="row align-content-center">
                     <div className="col-lg-12">
-                        <h2 className="display-4 text-uppercase text-center text-white mb-0">
+                        <h2 className="display-4 text-uppercase text-lg-center text-white py-4 mb-0">
                             Kursy i szkolenia
                         </h2>
                     </div>
                 </div>
 
-                <div className="row mt-5">
+                <div className="row">
                     <div className="col-lg-12">
                         <ul className="timeline text-white">
                             <li className="timeline-section">
                                 <div className="timeline-section__title">
-                                    Fizjoterapia w ginekologii
-                                    <br /> i urologii
+                                    Fizjoterapia w ginekologii i urologii
                                 </div>
 
                                 <div className="timeline-section__body">
@@ -160,8 +159,16 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section>
-            <div className="container p-lg-0 py-5">
+        <section className="py-5 py-lg-0">
+            <div className="container p-lg-0">
+                <div className="row align-content-center d-lg-none">
+                    <div className="col-lg-12">
+                        <h2 className="display-4 py-4 text-uppercase text-lg-center text-primary mb-0">
+                            Oferta
+                        </h2>
+                    </div>
+                </div>
+
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6 text-center">
                         <img
@@ -171,7 +178,7 @@ const IndexPage = () => (
                         />
                     </div>
                     <div className="col-lg-6">
-                        <div className="px-4">
+                        <div className="px-lg-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia w ciąży
                             </h3>
@@ -194,7 +201,7 @@ const IndexPage = () => (
                 </div>
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6">
-                        <div className="px-4">
+                        <div className="px-lg-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia po porodzie
                             </h3>
@@ -229,7 +236,7 @@ const IndexPage = () => (
                         />
                     </div>
                     <div className="col-lg-6">
-                        <div className="px-4">
+                        <div className="px-lg-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Fizjoterapia uroginekologiczna
                             </h3>
@@ -246,7 +253,7 @@ const IndexPage = () => (
                 </div>
                 <div className="row align-items-center no-gutters">
                     <div className="col-lg-6">
-                        <div className="px-4">
+                        <div className="px-lg-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
                                 Profilaktyka zaburzeń dnia miednicy
                             </h3>
@@ -271,15 +278,15 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="bg-primary py-5">
+        <section className="py-5 bg-primary">
             <div className="container">
                 <div className="row align-content-center">
                     <div className="col-lg-12">
-                        <h2 className="display-4 text-uppercase text-center text-white mb-0">
+                        <h2 className="display-4 py-4 text-uppercase text-lg-center text-white mb-0">
                             Cennik
                         </h2>
 
-                        <div className="mt-5">
+                        <div>
                             <table className="table text-white">
                                 <tbody>
                                     <tr>
@@ -315,6 +322,22 @@ const IndexPage = () => (
                                     <tr>
                                         <td>
                                             <span className="font-weight-bold">
+                                                Masaż leczniczy (częściowy,
+                                                całościowy)
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div className="font-weight-bold">
+                                                60 - 120 zł
+                                            </div>
+                                            <small>
+                                                (czas trwania 30 - 60 min)
+                                            </small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span className="font-weight-bold">
                                                 Elektrostymulacja /
                                                 EMG-Biofeedback
                                             </span>
@@ -339,22 +362,6 @@ const IndexPage = () => (
                                                 20 - 30 zł
                                             </div>
                                             <small>(aplikacja)</small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <span className="font-weight-bold">
-                                                Masaż leczniczy (częściowy,
-                                                całościowy)
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                60 - 120 zł
-                                            </div>
-                                            <small>
-                                                (czas trwania 30 - 60 min)
-                                            </small>
                                         </td>
                                     </tr>
                                 </tbody>

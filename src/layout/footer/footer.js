@@ -6,14 +6,14 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">
-                        <h2 className="display-4 text-uppercase text-left text-primary mb-0">
+                        <h2 className="display-4 py-4 text-uppercase text-left text-primary mb-0">
                             Kontakt
                         </h2>
                     </div>
                 </div>
 
-                <div className="row align-content-center mt-4">
-                    <div className="col-lg-6 text-white">
+                <div className="row align-content-center">
+                    <div className="col-lg-6 text-white text-lg-left order-1 order-lg-0">
                         <h6>
                             Zapraszam do skorzystania z kompleksowej
                             fizjoterapii dolegliwości kobiecych:
@@ -25,7 +25,7 @@ const Footer = () => {
                             <li>blizna po cesarskim cięciu i wiele innych.</li>
                         </ul>
                     </div>
-                    <div className="col-lg-6 text-white">
+                    <div className="col-lg-6 text-white order-0 order-lg-1">
                         <h4>Małgorzata Leleń</h4>
                         <p>00-000-000</p>
                         <p>
