@@ -43,7 +43,9 @@ class CookiesPolicy extends Component {
         super(props);
 
         const { cookies } = props;
-        this.isBarClosed = !!cookies.get(this.COOKIES_POLICY_KEY);
+        this.state = {
+            isBarClosed: !!cookies.get(this.COOKIES_POLICY_KEY),
+        };
     }
 
     onClick = () => {
@@ -53,7 +55,9 @@ class CookiesPolicy extends Component {
             path: '/',
             maxAge: 2 * 24 * 60 * 60,
         });
-        this.isBarClosed = true;
+        this.setState({
+            isBarClosed: true,
+        })
     };
 
     renderBar = () => (
@@ -99,7 +103,7 @@ class CookiesPolicy extends Component {
     );
 
     render() {
-        if (!this.isBarClosed) {
+        if (!this.state.isBarClosed) {
             return this.renderBar();
         } else {
             return null;
