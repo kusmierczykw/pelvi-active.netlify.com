@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './header/header';
 import Footer from './footer/footer';
-import styled from 'styled-components';
 import '../styles/style.scss';
+import styled from 'styled-components';
 
 const PageWrapper = styled.div`
   display: flex;
