@@ -1,7 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/breakpoints';
 
-$navbar-background-color: rgba($secondary-color, 0.9);
+$navbar-background-color: rgba($secondary-color, 1);
 $navbar-toggler-color: $light-color;
 $navbar-brand-text-color: $light-color;
 $navbar-brand-font-size: 1.5em;
@@ -27,6 +27,8 @@ $navbar-nav-item-link-hover-color: $primary-color;
 
     .navbar-toggler {
         border-color: $navbar-toggler-color;
+        font-size: 24px;
+        padding: 8px 16px;
 
         &.icon {
             background-color: $navbar-toggler-color;
@@ -53,13 +55,13 @@ $navbar-nav-item-link-hover-color: $primary-color;
                 left: 0;
                 transform: scaleX(0);
                 background-color: $primary-color;
+                transition: 0.5s;
             }
 
             &:hover {
                 color: $navbar-nav-item-link-hover-color;
 
                 &:before {
-                    transition: 0.5s;
                     transform: scaleX(1);
                 }
             }
@@ -111,11 +113,11 @@ $navbar-nav-item-link-hover-color: $primary-color;
         font-size: 4.5rem;
         font-weight: 300;
 
-        @media screen and (max-width: $grid-breakpoint-lg){
+        @media screen and (max-width: $grid-breakpoint-lg) {
             font-size: 3em;
         }
 
-        @media screen and (max-width: $grid-breakpoint-md){
+        @media screen and (max-width: $grid-breakpoint-md) {
             font-size: 2em;
         }
     }

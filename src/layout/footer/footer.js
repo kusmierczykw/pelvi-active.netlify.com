@@ -1,8 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons/faPhoneSquareAlt';
+import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons/faGlobeEurope';
+import colors from '../../components/utils/colors';
+import styled from 'styled-components';
+
+const IconWrapper = styled.span`
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ${colors.primary};
+    margin-right: 16px;
+    border-radius: 2px;
+`;
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary pt-5">
+        <footer className="bg-secondary pt-4">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">
@@ -13,11 +29,11 @@ const Footer = () => {
                 </div>
 
                 <div className="row align-content-center">
-                    <div className="col-lg-6 text-white text-lg-left order-1 order-lg-0">
-                        <h6>
+                    <div className="col-lg-6 text-white text-lg-left d-none d-lg-block">
+                        <h5 className="mt-lg-0 mt-4">
                             Zapraszam do skorzystania z kompleksowej
                             fizjoterapii dolegliwości kobiecych:
-                        </h6>
+                        </h5>
                         <ul>
                             <li>nietrzymanie moczu,</li>
                             <li>obniżenie narządów,</li>
@@ -25,22 +41,40 @@ const Footer = () => {
                             <li>blizna po cesarskim cięciu i wiele innych.</li>
                         </ul>
                     </div>
-                    <div className="col-lg-6 text-white order-0 order-lg-1">
-                        <h4>Małgorzata Leleń</h4>
-                        <p>00-000-000</p>
-                        <p>
+                    <div className="col-lg-6 text-white">
+                        <h4 className="mb-4">Małgorzata Leleń</h4>
+                        <div className="d-flex align-items-center mt-2">
+                            <IconWrapper>
+                                <FontAwesomeIcon
+                                    icon={faPhoneSquareAlt}
+                                    size={'lg'}
+                                    color={'white'}
+                                />
+                            </IconWrapper>
+                            <a href="tel:512358893" className="text-white">
+                                512 358 893
+                            </a>
+                        </div>
+                        <div className="d-flex align-items-center mt-2">
+                            <IconWrapper>
+                                <FontAwesomeIcon
+                                    icon={faGlobeEurope}
+                                    size={'lg'}
+                                    color={'white'}
+                                />
+                            </IconWrapper>
                             <a
                                 href={process.env.GATSBY_HOST_ADDRESS}
                                 className={'text-white'}
                                 target={'_blank'}>
                                 www.pelvi-active.pl
                             </a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="container bg-primary text-white text-center py-4">
+            <div className="container bg-primary text-white text-center mt-4 py-4">
                 Copyright © {new Date().getFullYear()}
                 <a
                     href="http://wojciech-kusmierczyk.pl"

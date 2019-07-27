@@ -2,20 +2,32 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './header/header';
 import Footer from './footer/footer';
+import styled from 'styled-components';
 import '../styles/style.scss';
 
-const Layout = ({ children }) => {
+const PageWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+`;
+
+const Layout = ({ children, topOffsetInPx }) => {
+    const marginTop = `${(topOffsetInPx) ? topOffsetInPx : 0}px`;
+
     return (
         <>
-            <Header siteTitle={'Pelvi-Active'} />
-            <div className="container-fluid px-0">
-                <div className="row no-gutters">
-                    <div className="col-lg-12">
-                        <main>{children}</main>
+            <PageWrapper style={{marginTop: marginTop}}>
+                <Header siteTitle={'Pelvi-Active'} />
+                <div className="container-fluid px-0">
+                    <div className="row no-gutters">
+                        <div className="col-lg-12">
+                            <main>{children}</main>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Footer />
+                <Footer />
+            </PageWrapper>
         </>
     );
 };

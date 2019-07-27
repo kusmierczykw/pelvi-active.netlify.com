@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Layout from '../layout/layout';
-import SEO from '../components/seo';
+import SEO from '../components/seo'
+import posed from 'react-pose'
 
 import malgorzata_lelen from '../images/malgorzata_lelen.png';
 import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';

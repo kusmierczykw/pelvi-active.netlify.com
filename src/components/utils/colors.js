@@ -1,12 +1,12 @@
 const colors = {
-    light: `hsl(0, 0%, 100%)`,
-    primary: `hsl(343, 87%, 58%)`,
-    primaryLight: `hsl(343, 87%, 68%)`,
-    primaryDark: `hsl(343, 87%, 48%)`,
-    secondary: `hsl(0, 0%, 16%)`,
-    secondaryLight: `hsl(0, 0%, 26%)`,
-    secondaryDark: `hsl(0, 0%, 6%)`,
-    dark:  `hsl(0, 0%, 6%)`,
+    light: `#ffffff`,
+    primary: `#f1376c`,
+    primaryLight: `#f4668f`,
+    primaryDark: `#e5104c`,
+    secondary: `#292929`,
+    secondaryLight: `#424242`,
+    secondaryDark: `#0f0f0f`,
+    dark:  `#0f0f0f`,
 };
 
 export default colors;

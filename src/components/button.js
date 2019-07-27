@@ -28,11 +28,16 @@ const ButtonSizes = {
 export const ButtonBasic = styled.button`
     border-radius: 4px;
     font-weight: 500;
-    transition: background-color .2s ease-in;
     display: inline-block;
+    background-position: center;
+    transition: background 0.8s;
 
     :hover {
         text-decoration: none;
+    }
+
+    :active {
+        transition: background 0s;
     }
 `;
 
@@ -70,6 +75,10 @@ const ButtonPrimaryDefinition = {
         hoverBackgroundColor: colors.primary,
         hoverTextColor: colors.light,
     },
+    active: {
+        activeBackgroundColor: colors.primaryLight,
+        activeTextColor: colors.light,
+    }
 };
 
 export const ButtonPrimary = styled(Button)`
@@ -97,6 +106,11 @@ const ButtonSecondaryDefinition = {
         hoverBackgroundColor: colors.secondary,
         hoverTextColor: colors.light,
     },
+
+    active: {
+        activeBackgroundColor: colors.secondaryLight,
+        activeTextColor: colors.light,
+    }
 };
 
 export const ButtonSecondary = styled(Button)`
@@ -118,6 +132,8 @@ export const ButtonSecondaryLarge = styled(ButtonLarge)`
  * @param boxShadow
  * @param hoverBackgroundColor
  * @param hoverTextColor
+ * @param activeBackgroundColor
+ * @param activeTextColor
  * @returns {string}
  */
 function filledButtonCreator({
@@ -125,6 +141,7 @@ function filledButtonCreator({
     textColor,
     boxShadow,
     hover: { hoverBackgroundColor, hoverTextColor },
+    active: { activeBackgroundColor, activeTextColor },
 }) {
     return `
         background-color: ${backgroundColor};
@@ -132,7 +149,13 @@ function filledButtonCreator({
         color: ${textColor};
     
         :hover {
-            background-color: ${hoverBackgroundColor};
             color: ${hoverTextColor};
+            background: ${hoverBackgroundColor} radial-gradient(circle, transparent 1%, ${hoverBackgroundColor} 1%) center/15000%;
+        }
+        
+        :active {
+            background-color: ${activeBackgroundColor};
+            color: ${activeTextColor};
+            background-size: 100%;
         }`;
 }
