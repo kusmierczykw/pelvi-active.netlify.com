@@ -103,11 +103,13 @@ class CookiesPolicy extends Component {
     );
 
     render() {
-        if (!this.state.isBarClosed) {
-            return this.renderBar();
-        } else {
-            return null;
-        }
+        return null;
+
+        // if (!this.state.isBarClosed) {
+        //     return this.renderBar();
+        // } else {
+        //     return null;
+        // }
     }
 }
 
