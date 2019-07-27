@@ -42,8 +42,9 @@
                 position: relative;
                 flex: 1 0 $timeline-title-width;
                 line-height: $timeline-title-line-height;
-                font-size: $timeline-title-font-size;
-                font-weight: $timeline-title-font-weight;
+                font-size: $timeline-title-font-size !important;
+                font-weight: $timeline-title-font-weight !important;
+                text-transform: none !important;
 
                 &:before {
                     content: '';
@@ -76,18 +77,20 @@
         padding: 0;
 
         &-section {
-            margin-bottom: 32px;
+            margin-bottom: 1rem;
 
             &:last-child {
                 margin-bottom: 0;
             }
 
             &__title {
-                font-weight: 600;
-                text-transform: uppercase;
+
             }
 
             &__body {
+                ul{
+                    list-style-type: disc;
+                }
             }
         }
     }

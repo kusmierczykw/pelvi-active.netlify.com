@@ -2,19 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons/faPhoneSquareAlt';
 import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons/faGlobeEurope';
-import colors from '../../components/utils/colors';
-import styled from 'styled-components';
-
-const IconWrapper = styled.span`
-    width: 36px;
-    height: 36px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: ${colors.primary};
-    margin-right: 16px;
-    border-radius: 2px;
-`;
+import IconWrapper from '../../components/icon-wrapper';
 
 const Footer = () => {
     return (
@@ -43,7 +31,9 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-6 text-white">
                         <h4 className="mb-4">Małgorzata Leleń</h4>
-                        <div className="d-flex align-items-center mt-2">
+                        <a
+                            href="tel:512358893"
+                            className="d-flex align-items-center text-white mt-2">
                             <IconWrapper>
                                 <FontAwesomeIcon
                                     icon={faPhoneSquareAlt}
@@ -51,11 +41,12 @@ const Footer = () => {
                                     color={'white'}
                                 />
                             </IconWrapper>
-                            <a href="tel:512358893" className="text-white">
-                                512 358 893
-                            </a>
-                        </div>
-                        <div className="d-flex align-items-center mt-2">
+                            512 358 893
+                        </a>
+                        <a
+                            href={process.env.GATSBY_HOST_ADDRESS}
+                            target={'_blank'}
+                            className="d-flex align-items-center text-white mt-2">
                             <IconWrapper>
                                 <FontAwesomeIcon
                                     icon={faGlobeEurope}
@@ -63,13 +54,8 @@ const Footer = () => {
                                     color={'white'}
                                 />
                             </IconWrapper>
-                            <a
-                                href={process.env.GATSBY_HOST_ADDRESS}
-                                className={'text-white'}
-                                target={'_blank'}>
-                                www.pelvi-active.pl
-                            </a>
-                        </div>
+                            {process.env.GATSBY_HOST_NAME}
+                        </a>
                     </div>
                 </div>
             </div>

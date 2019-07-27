@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../layout/layout';
 import SEO from '../components/seo'
-import posed from 'react-pose'
 
 import malgorzata_lelen from '../images/malgorzata_lelen.png';
 import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';
@@ -46,7 +45,7 @@ const IndexPage = () => (
                         <h2 className="display-4 text-primary text-uppercase mb-0 py-4">
                             O mnie
                         </h2>
-                        <div className="text-justify font-size-20">
+                        <div className="text-justify    ">
                             Nazywam się Małgorzata Leleń. Ukończyłam studia
                             magisterskie na Uniwersytecie Medycznym w Lublinie
                             na kierunku Fizjoterapia. Zajmuję się profilaktyką
@@ -79,9 +78,9 @@ const IndexPage = () => (
                     <div className="col-lg-12">
                         <ul className="timeline text-white">
                             <li className="timeline-section">
-                                <div className="timeline-section__title">
+                                <h3 className="timeline-section__title text-uppercase font-weight-lighter">
                                     Fizjoterapia w ginekologii i urologii
-                                </div>
+                                </h3>
 
                                 <div className="timeline-section__body">
                                     <ul>
@@ -122,9 +121,9 @@ const IndexPage = () => (
                             </li>
 
                             <li className="timeline-section">
-                                <div className="timeline-section__title">
+                                <h3 className="timeline-section__title text-uppercase font-weight-lighter">
                                     Fizjoterapia ogólna
-                                </div>
+                                </h3>
                                 <div className="timeline-section__body">
                                     <ul>
                                         <li>Kinesiology Taping</li>
