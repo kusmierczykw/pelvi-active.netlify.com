@@ -15,7 +15,6 @@ const CookiesWrapper = styled.div`
     background-color: ${colors.secondaryLight};
     z-index: 101;
     box-shadow: 0 0 5px -2px rgba(0, 0, 0, 1);
-    font-size: 12px;
     padding-top: 4px;
     padding-bottom: 4px;
 
@@ -92,6 +91,7 @@ class CookiesPolicy extends Component {
                             className="cookie__close-button">
                             <FontAwesomeIcon
                                 icon={faWindowClose}
+                                size={"1x"}
                                 className="mr-2"
                             />
                             Zamknij
