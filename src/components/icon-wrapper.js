@@ -10,6 +10,7 @@ const IconWrapper = styled.span`
     background-color: ${colors.primary};
     margin-right: 16px;
     border-radius: 2px;
+    flex: 0 0 auto;
 `;
 
 export default IconWrapper;

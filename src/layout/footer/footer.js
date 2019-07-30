@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons/faPhoneSquareAlt';
 import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons/faGlobeEurope';
 import IconWrapper from '../../components/icon-wrapper';
+import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
 
 const Footer = () => {
     return (
@@ -55,6 +56,17 @@ const Footer = () => {
                                 />
                             </IconWrapper>
                             {process.env.GATSBY_HOST_NAME}
+                        </a>
+                        <a
+                            className="d-flex align-items-center text-white mt-2">
+                            <IconWrapper>
+                                <FontAwesomeIcon
+                                    icon={faMapMarkerAlt}
+                                    size={'lg'}
+                                    color={'white'}
+                                />
+                            </IconWrapper>
+                            Lublin, ul. Nowy świat 23a (lokal Kinezismed)
                         </a>
                     </div>
                 </div>

@@ -364,6 +364,18 @@ const IndexPage = () => (
                                             <small>(aplikacja)</small>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <span className="font-weight-bold">
+                                                Wizyta domowa
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div className="font-weight-bold">
+                                                cena ustalana indywidualnie
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
