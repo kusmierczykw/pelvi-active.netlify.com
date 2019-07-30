@@ -16,6 +16,19 @@ module.exports = {
         },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-144907031-1",
+                head: false,
+                anonymize: true,
+                respectDNT: true,
+                pageTransitionDelay: 0,
+                sampleRate: 5,
+                siteSpeedSampleRate: 10,
+                cookieDomain: process.env.GATSBY_HOST_ADDRESS,
+            },
+        },
         `gatsby-plugin-styled-components`,
         {
             resolve: `gatsby-plugin-manifest`,
