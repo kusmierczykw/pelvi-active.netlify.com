@@ -10,11 +10,12 @@ import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologi
 import profilaktyka_zaburzen_dnia_miednicy from '../images/profilaktyka_zaburzen_dnia_miednicy.jpg';
 import { Link } from 'gatsby';
 import { ButtonPrimary } from '../components/button';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Strona głowna" />
-        <section className="pelvi-hero-section d-flex align-items-center">
+        <section className="pelvi-hero-section d-flex align-items-center" id="start">
             <div className="container-fluid">
                 <div className="row align-content-center px-lg-4">
                     <div className="col-lg-6 offset-lg-1">
@@ -23,15 +24,15 @@ const IndexPage = () => (
                             style={{ fontWeight: 300 }}>
                             Fizjoterapia uroginekologiczna
                         </h1>
-                        <ButtonPrimary as={Link} to={'/'}>
-                            oferta
+                        <ButtonPrimary as={AnchorLink} offset='78' href="#o-mnie">
+                            o mnie
                         </ButtonPrimary>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="py-5 pb-lg-0">
+        <section className="py-5 pb-lg-0" id="o-mnie">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-xl-4 text-center">
@@ -56,7 +57,7 @@ const IndexPage = () => (
                             uroginekologii i rehabilitacji ogólnej zdobyłam na
                             wielu szkoleniach kursach.
                         </div>
-                        <ButtonPrimary className="mt-4" as={Link} to={'/'}>
+                        <ButtonPrimary className="mt-4" as={AnchorLink} offset='78' href="#kursy">
                             kursy i szkolenia
                         </ButtonPrimary>
                     </div>
@@ -64,7 +65,7 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="py-5 bg-primary">
+        <section className="py-5 bg-primary" id="kursy">
             <div className="container">
                 <div className="row align-content-center">
                     <div className="col-lg-12">
@@ -159,7 +160,7 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="py-5 py-lg-0">
+        <section className="py-5 py-lg-0" id="oferta">
             <div className="container p-lg-0">
                 <div className="row align-content-center d-lg-none">
                     <div className="col-lg-12">

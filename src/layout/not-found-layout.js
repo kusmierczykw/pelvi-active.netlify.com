@@ -14,9 +14,8 @@ const PageWrapper = styled.div`
     justify-content: space-between;
 `;
 
-const Layout = ({children, topOffsetInPx}) => {
-    const marginTop = `${topOffsetInPx ? topOffsetInPx : 0}px`;
-    const {
+const NotFoundLayout = ({children}) => {
+    let {
         site: {
             siteMetadata: {
                 menuLinks
@@ -37,11 +36,15 @@ const Layout = ({children, topOffsetInPx}) => {
         `
     );
 
+    menuLinks = menuLinks.map(({name, link}) => {
+        link = `/${link}`;
+        return {name, link}
+    });
+
     return (
         <>
             <CookiesProvider>
-                <PageWrapper style={{marginTop: marginTop}}>
-                    <Header siteTitle={'Pelvi-Active'} navigationLinks={menuLinks}/>
+                <PageWrapper style={{marginTop: 78}}>
                     <div className="container-fluid px-0">
                         <div className="row no-gutters">
                             <div className="col-lg-12">
@@ -57,8 +60,8 @@ const Layout = ({children, topOffsetInPx}) => {
     );
 };
 
-Layout.propTypes = {
+NotFoundLayout.propTypes = {
     children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default NotFoundLayout;

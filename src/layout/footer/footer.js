@@ -7,7 +7,7 @@ import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary pt-4">
+        <footer className="bg-secondary pt-4" id="kontakt">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">

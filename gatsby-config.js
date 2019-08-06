@@ -7,6 +7,28 @@ module.exports = {
         title: `Pelvi-Active`,
         description: `Fizjoterapia uroginekologiczna.`,
         author: `@Wojciech Kuśmierczyk`,
+        menuLinks: [
+            {
+                link: '#start',
+                name: 'Start'
+            },
+            {
+                link: '#o-mnie',
+                name: 'O mnie'
+            },
+            {
+                link: '#kursy',
+                name: 'Kursy'
+            },
+            {
+                link: '#oferta',
+                name: 'Oferta'
+            },
+            {
+                link: '#kontakt',
+                name: 'Kontakt'
+            }
+        ],
     },
     plugins: [
         `gatsby-plugin-react-helmet`,

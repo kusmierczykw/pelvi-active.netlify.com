@@ -4,9 +4,10 @@ import Layout from '../layout/layout';
 import SEO from '../components/seo';
 import { ButtonPrimary } from '../components/button';
 import { Link } from 'gatsby';
+import NotFoundLayout from "../layout/not-found-layout";
 
 const NotFoundPage = () => (
-    <Layout topOffsetInPx={78}>
+    <NotFoundLayout>
         <SEO title="404 - strona nie została znaleziona" />
         <div className="container">
             <section className="py-5">
@@ -28,7 +29,7 @@ const NotFoundPage = () => (
                 </div>
             </section>
         </div>
-    </Layout>
+    </NotFoundLayout>
 );
 
 export default NotFoundPage;
