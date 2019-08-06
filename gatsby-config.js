@@ -1,3 +1,7 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
     siteMetadata: {
         title: `Pelvi-Active`,
@@ -20,7 +24,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
                 trackingIds: [
-                    'UA-144907031-1', // Google Analytics / GA
+                    process.env.GA_ID, // Google Analytics / GA
                 ],
                 gtagConfig: {
                     anonymize_ip: true,
