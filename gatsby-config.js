@@ -17,11 +17,18 @@ module.exports = {
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: `gatsby-plugin-google-gtag`,
             options: {
-                trackingId: process.env.GA_ID,
-                head: true,
-                anonymize: true,
+                trackingIds: [
+                    process.env.GA_ID, // Google Analytics / GA
+                ],
+                gtagConfig: {
+                    anonymize_ip: true,
+                    cookie_expires: 0,
+                },
+                pluginConfig: {
+                    head: true,
+                },
             },
         },
         `gatsby-plugin-styled-components`,
