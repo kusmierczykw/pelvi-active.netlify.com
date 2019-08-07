@@ -1,21 +1,22 @@
 import React from 'react';
 
 import Layout from '../layout/layout';
-import SEO from '../components/seo'
+import SEO from '../components/seo';
 
 import malgorzata_lelen from '../images/malgorzata_lelen.png';
 import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';
 import fizjoterapia_po_porodzie from '../images/fizjoterapia_po_porodzie.jpg';
 import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologiczna.jpg';
 import profilaktyka_zaburzen_dnia_miednicy from '../images/profilaktyka_zaburzen_dnia_miednicy.jpg';
-import { Link } from 'gatsby';
 import { ButtonPrimary } from '../components/button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Strona głowna" />
-        <section className="pelvi-hero-section d-flex align-items-center" id="start">
+        <section
+            className="pelvi-hero-section d-flex align-items-center"
+            id="start">
             <div className="container-fluid">
                 <div className="row align-content-center px-lg-4">
                     <div className="col-lg-6 offset-lg-1">
@@ -24,7 +25,10 @@ const IndexPage = () => (
                             style={{ fontWeight: 300 }}>
                             Fizjoterapia uroginekologiczna
                         </h1>
-                        <ButtonPrimary as={AnchorLink} offset='78' href="#o-mnie">
+                        <ButtonPrimary
+                            as={AnchorLink}
+                            offset="78"
+                            href="#o-mnie">
                             o mnie
                         </ButtonPrimary>
                     </div>
@@ -46,7 +50,7 @@ const IndexPage = () => (
                         <h2 className="display-4 text-primary text-uppercase mb-0 py-4">
                             O mnie
                         </h2>
-                        <div className="text-justify    ">
+                        <div className="text-justify">
                             Nazywam się Małgorzata Leleń. Ukończyłam studia
                             magisterskie na Uniwersytecie Medycznym w Lublinie
                             na kierunku Fizjoterapia. Zajmuję się profilaktyką
@@ -57,7 +61,11 @@ const IndexPage = () => (
                             uroginekologii i rehabilitacji ogólnej zdobyłam na
                             wielu szkoleniach kursach.
                         </div>
-                        <ButtonPrimary className="mt-4" as={AnchorLink} offset='78' href="#kursy">
+                        <ButtonPrimary
+                            className="mt-4"
+                            as={AnchorLink}
+                            offset="78"
+                            href="#kursy">
                             kursy i szkolenia
                         </ButtonPrimary>
                     </div>
@@ -162,7 +170,7 @@ const IndexPage = () => (
 
         <section className="py-5 py-lg-0" id="oferta">
             <div className="container p-lg-0">
-                <div className="row align-content-center d-lg-none">
+                <div className="row align-content-center">
                     <div className="col-lg-12">
                         <h2 className="display-4 py-4 text-uppercase text-lg-center text-primary mb-0">
                             Oferta
