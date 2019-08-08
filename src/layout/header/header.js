@@ -7,6 +7,10 @@ import logo from '../../images/logo.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = ({siteTitle, navigationLinks}) => {
+    const closeNavbarMenu = (e) =>{
+        document.querySelector('.navbar-collapse').classList.remove('show');
+    };
+
     return (
         <header>
             <nav className="navbar navbar-expand-lg pelvi-navbar fixed-top">
@@ -33,7 +37,7 @@ const Header = ({siteTitle, navigationLinks}) => {
                             {
                                 navigationLinks.map(({link, name}) => {
                                     return (
-                                        <li className="nav-item active" key={link}>
+                                        <li className="nav-item" key={link} onClick={closeNavbarMenu}>
                                             <AnchorLink offset='78' className="nav-link" href={link}>
                                                 {name}
                                             </AnchorLink>
