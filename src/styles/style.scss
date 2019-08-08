@@ -1,0 +1,28 @@
+@import 'colors';
+@import 'backgrounds';
+@import 'texts';
+/**
+    Komponenty
+ */
+@import 'tables';
+@import 'timeline';
+
+html,
+body {
+  line-height: 2;
+  font-size: 16px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
