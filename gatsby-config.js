@@ -6,6 +6,7 @@ module.exports = {
     siteMetadata: {
         title: `Pelvi-Active`,
         description: `Fizjoterapia uroginekologiczna.`,
+        siteUrl: process.env.GATSBY_HOST_ADDRESS,
         author: `@Wojciech Kuśmierczyk`,
         menuLinks: [
             {
@@ -41,6 +42,7 @@ module.exports = {
                 },
         },
         `gatsby-transformer-sharp`,
+        `gatsby-plugin-sitemap`,
         `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-plugin-google-gtag`,
