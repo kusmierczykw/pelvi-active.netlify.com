@@ -7,7 +7,7 @@ import malgorzata_lelen from '../images/malgorzata_lelen.png';
 import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';
 import fizjoterapia_po_porodzie from '../images/fizjoterapia_po_porodzie.jpg';
 import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologiczna.jpg';
-import profilaktyka_zaburzen_dnia_miednicy from '../images/profilaktyka_zaburzen_dnia_miednicy.jpg';
+import profilaktyka_zaburzen_dna_miednicy from '../images/profilaktyka_zaburzen_dna_miednicy.jpg';
 import { ButtonPrimary } from '../components/button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -264,7 +264,7 @@ const IndexPage = () => (
                     <div className="col-lg-6">
                         <div className="px-lg-4">
                             <h3 className="text-primary text-uppercase font-weight-lighter">
-                                Profilaktyka zaburzeń dnia miednicy
+                                Profilaktyka zaburzeń dna miednicy
                             </h3>
                             <ul>
                                 <li>
@@ -278,8 +278,8 @@ const IndexPage = () => (
                     </div>
                     <div className="col-lg-6 text-center">
                         <img
-                            src={profilaktyka_zaburzen_dnia_miednicy}
-                            alt="Profilaktyka zaburzeń dnia miednicy"
+                            src={profilaktyka_zaburzen_dna_miednicy}
+                            alt="Profilaktyka zaburzeń dna miednicy"
                             className="img-fluid d-none d-lg-block"
                         />
                     </div>
