@@ -13,7 +13,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Strona główna" />
+        <SEO
+            title="Pelvi-Active - fizjoterapia uroginekologiczna"
+            description="Fizjoterapia dolegliwości kobiecych - nietrzymanie moczu, obniżenie narządów, rozejście mięśnia prostego brzucha, blizna po cesarskim cięciu i wiele innych."
+        />
         <section
             className="pelvi-hero-section d-flex align-items-center"
             id="start">
