@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
     siteMetadata: {
-        title: `Pelvi-Active`,
-        description: `Fizjoterapia uroginekologiczna.`,
+        title: `Pelvi-Active - fizjoterapia uroginekologiczna`,
+        description: `Fizjoterapia dolegliwości kobiecych - nietrzymanie moczu, obniżenie narządów, rozejście mięśnia prostego brzucha, blizna po cesarskim cięciu i wiele innych.`,
         siteUrl: process.env.GATSBY_HOST_ADDRESS,
         author: `@Wojciech Kuśmierczyk`,
         menuLinks: [

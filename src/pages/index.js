@@ -13,7 +13,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Strona głowna" />
+        <SEO title="Strona główna" />
         <section
             className="pelvi-hero-section d-flex align-items-center"
             id="start">
