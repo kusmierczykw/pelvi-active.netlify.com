@@ -8,14 +8,14 @@ import fizjoterapia_w_ciazy from '../images/fizjoterapia_w_ciazy.jpg';
 import fizjoterapia_po_porodzie from '../images/fizjoterapia_po_porodzie.jpg';
 import fizjoterapia_uroginekologiczna from '../images/fizjoterapia_uroginekologiczna.jpg';
 import profilaktyka_zaburzen_dna_miednicy from '../images/profilaktyka_zaburzen_dna_miednicy.jpg';
-import { ButtonPrimary } from '../components/button';
+import {ButtonPrimary} from '../components/button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const IndexPage = () => (
     <Layout>
         <SEO
-            title="Pelvi-Active - fizjoterapia uroginekologiczna"
-            description="Fizjoterapia dolegliwości kobiecych - nietrzymanie moczu, obniżenie narządów, rozejście mięśnia prostego brzucha, blizna po cesarskim cięciu i wiele innych."
+            title="Pelvi-Active - Fizjoterapia uroginekologiczna"
+            description="Nietrzymanie moczu, obniżenie narządów, rozejście mięśnia prostego brzucha, blizna po cesarskim cięciu i wiele innych."
         />
         <section
             className="pelvi-hero-section d-flex align-items-center"
@@ -25,7 +25,7 @@ const IndexPage = () => (
                     <div className="col-lg-6 offset-lg-1">
                         <h1
                             className="text-white text-uppercase mb-4"
-                            style={{ fontWeight: 300 }}>
+                            style={{fontWeight: 300}}>
                             Fizjoterapia uroginekologiczna
                         </h1>
                         <ButtonPrimary
@@ -290,7 +290,7 @@ const IndexPage = () => (
             </div>
         </section>
 
-        <section className="py-5 bg-primary">
+        <section className="py-5 bg-primary" id="cennik">
             <div className="container">
                 <div className="row align-content-center">
                     <div className="col-lg-12">
@@ -301,93 +301,93 @@ const IndexPage = () => (
                         <div>
                             <table className="table text-white">
                                 <tbody>
-                                    <tr>
-                                        <td>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Pierwsza wizyta (diagnostyczna)
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                150 zł
-                                            </div>
-                                            <small>
-                                                (czas trwania ok. 90 min)
-                                            </small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            150 zł
+                                        </div>
+                                        <small>
+                                            (czas trwania ok. 90 min)
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Wizyta terapeutyczna
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                80 - 100 zł
-                                            </div>
-                                            <small>
-                                                (czas trwania 45 - 60 min)
-                                            </small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            80 - 100 zł
+                                        </div>
+                                        <small>
+                                            (czas trwania 45 - 60 min)
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Masaż leczniczy (częściowy,
                                                 całościowy)
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                60 - 120 zł
-                                            </div>
-                                            <small>
-                                                (czas trwania 30 - 60 min)
-                                            </small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            60 - 120 zł
+                                        </div>
+                                        <small>
+                                            (czas trwania 30 - 60 min)
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Elektrostymulacja /
                                                 EMG-Biofeedback
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                50 zł
-                                            </div>
-                                            <small>
-                                                (czas trwania ok. 30 min)
-                                            </small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            50 zł
+                                        </div>
+                                        <small>
+                                            (czas trwania ok. 30 min)
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Taping medyczny
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                20 - 30 zł
-                                            </div>
-                                            <small>(aplikacja)</small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            20 - 30 zł
+                                        </div>
+                                        <small>(aplikacja)</small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                             <span className="font-weight-bold">
                                                 Wizyta domowa
                                             </span>
-                                        </td>
-                                        <td>
-                                            <div className="font-weight-bold">
-                                                cena ustalana indywidualnie
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    </td>
+                                    <td>
+                                        <div className="font-weight-bold">
+                                            cena ustalana indywidualnie
+                                        </div>
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>

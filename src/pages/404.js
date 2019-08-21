@@ -6,7 +6,7 @@ import NotFoundLayout from "../layout/not-found-layout";
 
 const NotFoundPage = () => (
     <NotFoundLayout>
-        <SEO title="404 - strona nie została znaleziona" />
+        <SEO title="404 - Strona nie została znaleziona" />
         <div className="container">
             <section className="py-5">
                 <h1 className="display-1 text-center text-primary text-uppercase">
