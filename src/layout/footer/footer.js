@@ -2,8 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons/faPhoneSquareAlt';
 import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons/faGlobeEurope';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import IconWrapper from '../../components/icon-wrapper';
-import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
 
 const Footer = () => {
     return (
@@ -43,6 +44,18 @@ const Footer = () => {
                                 />
                             </IconWrapper>
                             512 358 893
+                        </a>
+                        <a
+                            href="mailto:pelviactive@gmail.com"
+                            className="d-flex align-items-center text-white mt-2">
+                            <IconWrapper>
+                                <FontAwesomeIcon
+                                    icon={faEnvelope}
+                                    size={'lg'}
+                                    color={'white'}
+                                />
+                            </IconWrapper>
+                            pelviactive@gmail.com
                         </a>
                         <a
                             href={process.env.GATSBY_HOST_ADDRESS}

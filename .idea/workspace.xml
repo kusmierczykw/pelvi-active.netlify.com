@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298f19a2-ce32-487d-ad3e-6e3dfc9dc5f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+    <list default="true" id="298f19a2-ce32-487d-ad3e-6e3dfc9dc5f2" name="Default Changelist" comment="Poprawienie literówek.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +55,19 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Pk7J1PrLcXPrMd4p5C83AzngKL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,6 +82,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.ClosureLinter" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="$APPLICATION_HOME_DIR$/dictionary" CustomDictionaries="1" CustomDictionary0="$APPLICATION_HOME_DIR$/dictionary/pl_PL.dic" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="$APPLICATION_HOME_DIR$/dictionary" CustomDictionaries="1" CustomDictionary0="$APPLICATION_HOME_DIR$/dictionary/pl_PL.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,8 +142,21 @@
       <workItem from="1565471013963" duration="5000" />
       <workItem from="1565712868390" duration="1950000" />
       <workItem from="1566406168483" duration="527000" />
+      <workItem from="1638994105878" duration="347000" />
+      <workItem from="1638995838495" duration="299000" />
     </task>
+    <task id="LOCAL-00001" summary="Poprawienie literówek.">
+      <created>1638994244063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638994244063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -169,6 +192,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Poprawienie literówek." />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawienie literówek." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
