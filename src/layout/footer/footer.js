@@ -66,7 +66,7 @@ const Footer = () => {
                                     color={'white'}
                                 />
                             </IconWrapper>
-                            Lublin, ul. Nowy świat 23a (lokal Kinezismed)
+                            Lublin, ul. Nowy świat 23a (wejście w prześwicie)
                         </a>
                     </div>
                 </div>

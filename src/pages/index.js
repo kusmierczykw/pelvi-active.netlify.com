@@ -309,10 +309,10 @@ const IndexPage = () => (
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            150 zł
+                                            200 zł
                                         </div>
                                         <small>
-                                            (czas trwania ok. 90 min)
+                                            (czas trwania do 90 min)
                                         </small>
                                     </td>
                                 </tr>
@@ -324,10 +324,10 @@ const IndexPage = () => (
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            80 - 100 zł
+                                            150 zł
                                         </div>
                                         <small>
-                                            (czas trwania 45 - 60 min)
+                                            (czas trwania do 60 min)
                                         </small>
                                     </td>
                                 </tr>
@@ -340,26 +340,10 @@ const IndexPage = () => (
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            60 - 120 zł
+                                            80 - 150 zł
                                         </div>
                                         <small>
                                             (czas trwania 30 - 60 min)
-                                        </small>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                            <span className="font-weight-bold">
-                                                Elektrostymulacja /
-                                                EMG-Biofeedback
-                                            </span>
-                                    </td>
-                                    <td>
-                                        <div className="font-weight-bold">
-                                            50 zł
-                                        </div>
-                                        <small>
-                                            (czas trwania ok. 30 min)
                                         </small>
                                     </td>
                                 </tr>
@@ -371,7 +355,7 @@ const IndexPage = () => (
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            20 - 30 zł
+                                            30 zł
                                         </div>
                                         <small>(aplikacja)</small>
                                     </td>
