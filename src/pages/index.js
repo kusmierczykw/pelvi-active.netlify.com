@@ -312,7 +312,7 @@ const IndexPage = () => (
                                             200 zł
                                         </div>
                                         <small>
-                                            (czas trwania do 90 min)
+                                            (czas trwania do 90 min.)
                                         </small>
                                     </td>
                                 </tr>
@@ -327,7 +327,7 @@ const IndexPage = () => (
                                             150 zł
                                         </div>
                                         <small>
-                                            (czas trwania do 60 min)
+                                            (czas trwania do 60 min.)
                                         </small>
                                     </td>
                                 </tr>
@@ -343,7 +343,7 @@ const IndexPage = () => (
                                             80 - 150 zł
                                         </div>
                                         <small>
-                                            (czas trwania 30 - 60 min)
+                                            (czas trwania 30 - 60 min.)
                                         </small>
                                     </td>
                                 </tr>
