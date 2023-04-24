@@ -303,13 +303,13 @@ const IndexPage = () => (
                                 <tbody>
                                 <tr>
                                     <td>
-                                            <span className="font-weight-bold">
-                                                Pierwsza wizyta (diagnostyczna)
-                                            </span>
+                                        <span className="font-weight-bold">
+                                            Pierwsza wizyta (diagnostyczna)
+                                        </span>
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            200 zł
+                                            250 zł
                                         </div>
                                         <small>
                                             (czas trwania do 90 min.)
@@ -318,13 +318,13 @@ const IndexPage = () => (
                                 </tr>
                                 <tr>
                                     <td>
-                                            <span className="font-weight-bold">
-                                                Wizyta terapeutyczna
-                                            </span>
+                                        <span className="font-weight-bold">
+                                            Wizyta terapeutyczna
+                                        </span>
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            150 zł
+                                            180 zł
                                         </div>
                                         <small>
                                             (czas trwania do 60 min.)
@@ -333,14 +333,14 @@ const IndexPage = () => (
                                 </tr>
                                 <tr>
                                     <td>
-                                            <span className="font-weight-bold">
-                                                Masaż leczniczy (częściowy,
-                                                całościowy)
-                                            </span>
+                                        <span className="font-weight-bold">
+                                            Masaż leczniczy (częściowy,
+                                            całościowy)
+                                        </span>
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            80 - 150 zł
+                                            120 - 200 zł
                                         </div>
                                         <small>
                                             (czas trwania 30 - 60 min.)
@@ -349,22 +349,22 @@ const IndexPage = () => (
                                 </tr>
                                 <tr>
                                     <td>
-                                            <span className="font-weight-bold">
-                                                Taping medyczny
-                                            </span>
+                                        <span className="font-weight-bold">
+                                            Taping medyczny
+                                        </span>
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            30 zł
+                                            50 - 70 zł
                                         </div>
                                         <small>(aplikacja)</small>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                            <span className="font-weight-bold">
-                                                Wizyta domowa
-                                            </span>
+                                        <span className="font-weight-bold">
+                                            Wizyta domowa
+                                        </span>
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
