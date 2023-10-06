@@ -63,6 +63,12 @@ module.exports = {
                 },
             },
         },
+        {
+            resolve: `gatsby-plugin-facebook-pixel`,
+            options: {
+                pixelId: "pixel id here",
+            },
+        },
         `gatsby-plugin-styled-components`,
         {
             resolve: `gatsby-plugin-manifest`,
