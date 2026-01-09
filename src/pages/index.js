@@ -324,7 +324,7 @@ const IndexPage = () => (
                                     </td>
                                     <td>
                                         <div className="font-weight-bold">
-                                            180 zł
+                                            200 zł
                                         </div>
                                         <small>
                                             (czas trwania do 60 min.)
